@@ -4,7 +4,7 @@ public class Car {
     private String make;
     private String model;
     private int year;
-    private String displayText;
+
 
     public Car() {
     }
@@ -40,7 +40,7 @@ public class Car {
     }
 
     public String getDisplayText() {
-        displayText = "Make: " + getMake()+"\n" + "Model: " + getModel() +" \n"+ "Year: " + getYear()+"\n ";
+        String displayText = "Make: " + getMake()+"\n" + "Model: " + getModel() +" \n"+ "Year: " + getYear()+"\n ";
 
         return displayText;
 
